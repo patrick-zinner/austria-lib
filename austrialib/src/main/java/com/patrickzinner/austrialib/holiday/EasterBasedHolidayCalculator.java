@@ -3,7 +3,7 @@ package com.patrickzinner.austrialib.holiday;
 import java.time.LocalDate;
 
 /**
- * Class for calculation of easter based holidays
+ * Class for calculation of easter based holidays. Since Easter Sunday is on a different day every year, the holidays need to be calculated for each year respectively.
  */
 public class EasterBasedHolidayCalculator {
 
@@ -39,5 +39,110 @@ public class EasterBasedHolidayCalculator {
         }
         return LocalDate.of(year, month, easterDay);
     }
+
+    /**
+     * Calculate Easter Monday of a given year. See {@link #calculateEasterSunday(int)}
+     *
+     * @param year year to calculate Easter Monday for
+     * @return Easter Monday in the given year
+     */
+    public LocalDate calculateEasterMonday(int year) {
+        return calculateEasterMonday(calculateEasterSunday(year));
+    }
+
+    /**
+     * Calculate Easter Monday of a given year. See {@link #calculateEasterSunday(int)}
+     *
+     * @param easterSunday Easter Sunday that the calculation should be based on
+     * @return Easter Monday
+     */
+    public LocalDate calculateEasterMonday(LocalDate easterSunday) {
+        return easterSunday.plusDays(1);
+    }
+
+    /**
+     * Calculate Ascension Day (Christi Himmelfahrt) of a given year. See {@link #calculateEasterSunday(int)}
+     *
+     * @param year year to calculate Ascension Day for
+     * @return Ascension Day
+     */
+    public LocalDate calculateAscensionDay(int year) {
+        return calculateAscensionDay(calculateEasterSunday(year));
+    }
+
+
+    /**
+     * Calculate Ascension Day (Christi Himmelfahrt) of a given year. See {@link #calculateEasterSunday(int)}
+     *
+     * @param easterSunday Easter Sunday that the calculation should be based on
+     * @return Ascension Day
+     */
+    public LocalDate calculateAscensionDay(LocalDate easterSunday) {
+        return easterSunday.plusDays(39);
+    }
+
+    /**
+     * Calculate Pentecost (Pfingsten) of a given year. See {@link #calculateEasterSunday(int)}
+     *
+     * @param year year to calculate Pentecost for
+     * @return Pentecost (Pfingsten) Day
+     */
+    public LocalDate calculatePentecost(int year) {
+        return calculatePentecost(calculateEasterSunday(year));
+    }
+
+
+    /**
+     * Calculate Pentecost (Pfingsten) of a given year. See {@link #calculateEasterSunday(int)}
+     *
+     * @param easterSunday Easter Sunday that the calculation should be based on
+     * @return Pentecost (Pfingsten) Day
+     */
+    public LocalDate calculatePentecost(LocalDate easterSunday) {
+        return easterSunday.plusDays(50);
+    }
+
+    /**
+     * Calculate Corpus Christi (Fronleichnam) of a given year. See {@link #calculateEasterSunday(int)}
+     *
+     * @param year year to calculate Corpus Christi for
+     * @return Corpus Christi (Fronleichnam) Day
+     */
+    public LocalDate calculateCorpusChristi(int year) {
+        return calculateCorpusChristi(calculateEasterSunday(year));
+    }
+
+
+    /**
+     * Calculate Corpus Christi (Fronleichnam) of a given year. See {@link #calculateEasterSunday(int)}
+     *
+     * @param easterSunday Easter Sunday that the calculation should be based on
+     * @return Corpus Christi (Fronleichnam) Day
+     */
+    public LocalDate calculateCorpusChristi(LocalDate easterSunday) {
+        return easterSunday.plusDays(60);
+    }
+
+    /**
+     * Calculate Good Friday (Karfreitag) of a given year. See {@link #calculateEasterSunday(int)}
+     *
+     * @param year year to calculate Good Friday (Karfreitag) for
+     * @return Good Friday (Karfreitag)
+     */
+    public LocalDate calculateGoodFriday(int year) {
+        return calculateGoodFriday(calculateEasterSunday(year));
+    }
+
+
+    /**
+     * Calculate Good Friday (Karfreitag) of a given year. See {@link #calculateEasterSunday(int)}
+     *
+     * @param easterSunday Easter Sunday that the calculation should be based on
+     * @return Good Friday (Karfreitag)
+     */
+    public LocalDate calculateGoodFriday(LocalDate easterSunday) {
+        return easterSunday.minusDays(2);
+    }
+
 
 }
