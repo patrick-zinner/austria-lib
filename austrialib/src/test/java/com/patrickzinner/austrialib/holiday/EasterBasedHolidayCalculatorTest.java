@@ -6,11 +6,11 @@ import org.junit.Test;
 import java.time.LocalDate;
 
 
-public class HolidayCalendarTest {
+public class EasterBasedHolidayCalculatorTest {
 
     @Test
     public void testCalculateEaster() {
-        HolidayCalendar calendar = new HolidayCalendar();
+        EasterBasedHolidayCalculator calendar = new EasterBasedHolidayCalculator();
         Assertions.assertThat(calendar.calculateEasterSunday(2016)).as("easter 2016").isEqualTo(LocalDate.of(2016, 3, 27));
         Assertions.assertThat(calendar.calculateEasterSunday(2017)).as("easter 2017").isEqualTo(LocalDate.of(2017, 4, 16));
         Assertions.assertThat(calendar.calculateEasterSunday(2018)).as("easter 2018").isEqualTo(LocalDate.of(2018, 4, 1));
