@@ -1,0 +1,284 @@
+{
+  "holidays": [
+    {
+      "month": 1,
+      "day": 1,
+      "deName": "Neujahr",
+      "enName": "New Year's Day",
+      "legalHoliday": true,
+      "states": [
+        "BURGENLAND",
+        "CARINTHIA",
+        "LOWER_AUSTRIA",
+        "SALZBURG",
+        "STYRIA",
+        "TYROL",
+        "UPPER_AUSTRIA",
+        "VIENNA",
+        "VORARLBERG"
+      ]
+    },
+    {
+      "month": 1,
+      "day": 6,
+      "deName": "Heilige Drei Könige",
+      "enName": "Epiphany",
+      "legalHoliday": true,
+      "states": [
+        "BURGENLAND",
+        "CARINTHIA",
+        "LOWER_AUSTRIA",
+        "SALZBURG",
+        "STYRIA",
+        "TYROL",
+        "UPPER_AUSTRIA",
+        "VIENNA",
+        "VORARLBERG"
+      ]
+    },
+    {
+      "month": 1,
+      "day": 6,
+      "deName": "Heilige Drei Könige",
+      "enName": "Epiphany",
+      "legalHoliday": true,
+      "states": [
+        "BURGENLAND",
+        "CARINTHIA",
+        "LOWER_AUSTRIA",
+        "SALZBURG",
+        "STYRIA",
+        "TYROL",
+        "UPPER_AUSTRIA",
+        "VIENNA",
+        "VORARLBERG"
+      ]
+    },
+    {
+      "month": 3,
+      "day": 19,
+      "deName": "Josefstag",
+      "enName": "Saint Joseph's Day",
+      "legalHoliday": false,
+      "states": [
+        "CARINTHIA",
+        "SALZBURG",
+        "STYRIA",
+        "TYROL"
+      ]
+    },
+    {
+      "month": 5,
+      "day": 1,
+      "deName": "Tag der Arbeit",
+      "enName": "International Workers' Day",
+      "legalHoliday": true,
+      "states": [
+        "BURGENLAND",
+        "CARINTHIA",
+        "LOWER_AUSTRIA",
+        "SALZBURG",
+        "STYRIA",
+        "TYROL",
+        "UPPER_AUSTRIA",
+        "VIENNA",
+        "VORARLBERG"
+      ]
+    },
+    {
+      "month": 5,
+      "day": 4,
+      "deName": "Florianitag",
+      "enName": "Saint Florians's Day",
+      "legalHoliday": false,
+      "states": [
+        "UPPER_AUSTRIA"
+      ]
+    },
+    {
+      "month": 8,
+      "day": 15,
+      "deName": "Mariä Himmelfahrt",
+      "enName": "Assumption of Mary",
+      "legalHoliday": true,
+      "states": [
+        "BURGENLAND",
+        "CARINTHIA",
+        "LOWER_AUSTRIA",
+        "SALZBURG",
+        "STYRIA",
+        "TYROL",
+        "UPPER_AUSTRIA",
+        "VIENNA",
+        "VORARLBERG"
+      ]
+    },
+    {
+      "month": 9,
+      "day": 24,
+      "deName": "Rupertstag",
+      "enName": "Saint Rupert's Day",
+      "legalHoliday": false,
+      "states": [
+        "SALZBURG"
+      ]
+    },
+    {
+      "month": 10,
+      "day": 10,
+      "deName": "Tag der Volksabstimmung",
+      "enName": "Day of the Carinthian plebiscite",
+      "legalHoliday": false,
+      "states": [
+        "CARINTHIA"
+      ]
+    },
+    {
+      "month": 10,
+      "day": 26,
+      "deName": "Nationalfeiertag",
+      "enName": "All Saints' Day",
+      "legalHoliday": true,
+      "states": [
+        "BURGENLAND",
+        "CARINTHIA",
+        "LOWER_AUSTRIA",
+        "SALZBURG",
+        "STYRIA",
+        "TYROL",
+        "UPPER_AUSTRIA",
+        "VIENNA",
+        "VORARLBERG"
+      ]
+    },
+    {
+      "month": 11,
+      "day": 1,
+      "deName": "Allerheiligen",
+      "enName": "National day",
+      "legalHoliday": true,
+      "states": [
+        "BURGENLAND",
+        "CARINTHIA",
+        "LOWER_AUSTRIA",
+        "SALZBURG",
+        "STYRIA",
+        "TYROL",
+        "UPPER_AUSTRIA",
+        "VIENNA",
+        "VORARLBERG"
+      ]
+    },
+    {
+      "month": 11,
+      "day": 11,
+      "deName": "Martinstag",
+      "enName": "Saint Martin's Day",
+      "legalHoliday": false,
+      "states": [
+        "BURGENLAND"
+      ]
+    },
+    {
+      "month": 11,
+      "day": 11,
+      "deName": "Leopoldstag",
+      "enName": "Saint Leopold's Day",
+      "legalHoliday": false,
+      "states": [
+        "LOWER_AUSTRIA",
+        "VIENNA"
+      ]
+    },
+    {
+      "month": 12,
+      "day": 8,
+      "deName": "Mariä Empfängnis",
+      "enName": "Immaculate Conception",
+      "legalHoliday": true,
+      "states": [
+        "BURGENLAND",
+        "CARINTHIA",
+        "LOWER_AUSTRIA",
+        "SALZBURG",
+        "STYRIA",
+        "TYROL",
+        "UPPER_AUSTRIA",
+        "VIENNA",
+        "VORARLBERG"
+      ]
+    },
+    {
+      "month": 12,
+      "day": 24,
+      "deName": "Heiliger Abend",
+      "enName": "Christmas Eve",
+      "legalHoliday": false,
+      "states": [
+        "BURGENLAND",
+        "CARINTHIA",
+        "LOWER_AUSTRIA",
+        "SALZBURG",
+        "STYRIA",
+        "TYROL",
+        "UPPER_AUSTRIA",
+        "VIENNA",
+        "VORARLBERG"
+      ]
+    },
+    {
+      "month": 12,
+      "day": 25,
+      "deName": "Christtag",
+      "enName": "Christmas Day",
+      "legalHoliday": true,
+      "states": [
+        "BURGENLAND",
+        "CARINTHIA",
+        "LOWER_AUSTRIA",
+        "SALZBURG",
+        "STYRIA",
+        "TYROL",
+        "UPPER_AUSTRIA",
+        "VIENNA",
+        "VORARLBERG"
+      ]
+    },
+    {
+      "month": 12,
+      "day": 26,
+      "deName": "Stefanitag",
+      "enName": "Saint Stephen's Day",
+      "legalHoliday": true,
+      "states": [
+        "BURGENLAND",
+        "CARINTHIA",
+        "LOWER_AUSTRIA",
+        "SALZBURG",
+        "STYRIA",
+        "TYROL",
+        "UPPER_AUSTRIA",
+        "VIENNA",
+        "VORARLBERG"
+      ]
+    },
+    {
+      "month": 12,
+      "day": 31,
+      "deName": "Silvester",
+      "enName": "New Year's Eve",
+      "legalHoliday": false,
+      "states": [
+        "BURGENLAND",
+        "CARINTHIA",
+        "LOWER_AUSTRIA",
+        "SALZBURG",
+        "STYRIA",
+        "TYROL",
+        "UPPER_AUSTRIA",
+        "VIENNA",
+        "VORARLBERG"
+      ]
+    }
+  ]
+}
