@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <licenses>
+        <license>
+            <name>CC0 1.0 Universal</name>
+            <url>https://creativecommons.org/publicdomain/zero/1.0/legalcode</url>
+            <comments>This project is in public domain. Feel free to do whatever you want with it.</comments>
+        </license>
+    </licenses>
+
+    <description>A small library for (but not exclusively) Austrian developers, who feel that they write the same
+        tedious code every time they are starting a project for Austrian clients.
+    </description>
+
+    <groupId>com.patrickzinner</groupId>
+    <artifactId>austrialib</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+</project>
