@@ -46,7 +46,7 @@ public class HolidayCalendar {
         List<Holiday> result = new ArrayList<>();
         LocalDate easterMonday = easterBasedHolidayCalculator.calculateEasterMonday(easterSunday);
         LocalDate ascensionDay = easterBasedHolidayCalculator.calculateAscensionDay(easterSunday);
-        LocalDate pentecostDay = easterBasedHolidayCalculator.calculatePentecost(easterSunday);
+        LocalDate pentecostDay = easterBasedHolidayCalculator.calculatePentecostMonday(easterSunday);
         LocalDate corpusChristi = easterBasedHolidayCalculator.calculateCorpusChristi(easterSunday);
         LocalDate goodFriday = easterBasedHolidayCalculator.calculateGoodFriday(easterSunday);
         result.add(createHoliday(easterSunday, "Easter Sunday", "Ostersonntag", true));

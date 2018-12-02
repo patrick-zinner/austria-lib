@@ -85,10 +85,10 @@ public class EasterBasedHolidayCalculator {
      * Calculate Pentecost (Pfingsten) of a given year. See {@link #calculateEasterSunday(int)}
      *
      * @param year year to calculate Pentecost for
-     * @return Pentecost (Pfingsten) Day
+     * @return Pentecost (Pfingsten) Monday
      */
-    public LocalDate calculatePentecost(int year) {
-        return calculatePentecost(calculateEasterSunday(year));
+    public LocalDate calculatePentecostMonday(int year) {
+        return calculatePentecostMonday(calculateEasterSunday(year));
     }
 
 
@@ -96,9 +96,9 @@ public class EasterBasedHolidayCalculator {
      * Calculate Pentecost (Pfingsten) of a given year. See {@link #calculateEasterSunday(int)}
      *
      * @param easterSunday Easter Sunday that the calculation should be based on
-     * @return Pentecost (Pfingsten) Day
+     * @return Pentecost (Pfingsten) Monday
      */
-    public LocalDate calculatePentecost(LocalDate easterSunday) {
+    public LocalDate calculatePentecostMonday(LocalDate easterSunday) {
         return easterSunday.plusDays(50);
     }
 
